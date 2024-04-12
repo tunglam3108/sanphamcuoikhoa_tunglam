@@ -13,7 +13,7 @@ const products = [
     },
     {
         "id": 3,
-        "name": "Nón bảo hiểm nước",
+        "name": "Kem chống nắng",
         "image": "link_hinh_anh_3.jpg",
         "price": "50 $" 
     },
