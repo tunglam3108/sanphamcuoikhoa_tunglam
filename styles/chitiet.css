@@ -21,7 +21,7 @@ font-size: 24px;
 }
 .tillet button{
   padding: 20px 30px;
-  background-color: red;
+  background-color: #0688fa;
   border: none;
   border-radius: 10px;
   margin-top: 20px;
@@ -31,4 +31,7 @@ font-size: 24px;
   color: white;
   font-size: 20px;
 
+}
+.tillet button:hover{
+    background-color: #ffd500;
 }

@@ -2,49 +2,49 @@ const products = [
     {
         "id": 1,
         "name": "Dù che nắng",
-        "image": "link_hinh_anh_1.jpg",
+        "image": "../img/vật dụng/dù che nắng.png",
         "price": "100 $" 
     },
     {
         "id": 2,
         "name": "Balo chống nước",
-        "image": "link_hinh_anh_2.jpg",
+        "image": "../img/vật dụng/ba lô chống nước.png",
         "price": "200 $" 
     },
     {
         "id": 3,
         "name": "Kem chống nắng",
-        "image": "link_hinh_anh_3.jpg",
+        "image": "../img/vật dụng/kem chống nắng.png",
         "price": "50 $" 
     },
     {
         "id": 4,
         "name": "Máy ảnh chống nước",
-        "image": "link_hinh_anh_4.jpg",
+        "image": "../img/vật dụng/máy ảnh chống nước.png",
         "price": "600 $" 
     },
     {
         "id": 5,
         "name": "Bình nước giữ nhiệt",
-        "image": "link_hinh_anh_5.jpg",
+        "image": "../img/vật dụng/bình giữ nhiệt.png",
         "price": "30 $" 
     },
     {
         "id": 6,
-        "name": "Gối hơi bơi",
-        "image": "link_hinh_anh_6.jpg",
+        "name": "Phao bơi",
+        "image": "../img/vật dụng/phao bơi.png",
         "price": "100 $" 
     },
     {
         "id": 7,
-        "name": "Kính mát",
-        "image": "link_hinh_anh_7.jpg",
+        "name": "Kính râm",
+        "image": "../img/vật dụng/kính râm.png",
         "price": "100 $" 
     },
     {
         "id": 8,
         "name": "Vớ bơi",
-        "image": "link_hinh_anh_8.jpg",
+        "image": "../img/vật dụng/vớ bơi.png",
         "price": "50 $" 
     }
 ]
@@ -56,7 +56,7 @@ let sum = 0
 for (let key of products) {
   if (sum < 8) {
     sumOfProduct += `
-    <div class="product">
+    <div class="product" id="${key.id}">
                 <div class="images"> <img src="${key.image}" alt=""></div>
                  <h3>${key.price}</h3>
                  <p>${key.name}</p>
